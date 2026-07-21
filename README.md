@@ -16,19 +16,19 @@
 <!-- VERSION_INFO_START -->
 | Component | Version |
 |-----------|---------|
-| **Ansible** | [`v2.21.1`](https://github.com/ansible/ansible/releases/tag/v2.21.1) |
+| **Ansible** | [`v2.21.2`](https://github.com/ansible/ansible/releases/tag/v2.21.2) |
 | **cert-manager CLI** | [`v2.5.0`](https://github.com/cert-manager/cmctl/releases/tag/v2.5.0) |
-| **Helm** | [`v4.2.2`](https://github.com/helm/helm/releases/tag/v4.2.2) |
+| **Helm** | [`v4.2.3`](https://github.com/helm/helm/releases/tag/v4.2.3) |
 | **K9s** | [`v0.51.0`](https://github.com/derailed/k9s/releases/tag/v0.51.0) |
-| **Kops** | [`v1.36.0-beta.1`](https://github.com/kubernetes/kops/releases/tag/v1.36.0-beta.1) |
-| **Kubectl** | [`v1.36.2`](https://github.com/kubernetes/kubernetes/releases/tag/v1.36.2) |
+| **Kops** | [`v1.36.0`](https://github.com/kubernetes/kops/releases/tag/v1.36.0) |
+| **Kubectl** | [`v1.37.0-beta.0`](https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-beta.0) |
 | **Kustomize** | [`5.8.1`](https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize/v5.8.1) |
-| **SwarmCLI** | [`v1.12.0`](https://github.com/Eldara-Tech/swarmcli/releases/tag/v1.12.0) |
-| **Terraform** | [`1.16.0-alpha20260617`](https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260617) |
-| **Terragrunt** | [`v1.1.0-rc2`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.1.0-rc2) |
+| **SwarmCLI** | [`v1.13.0-rc3`](https://github.com/Eldara-Tech/swarmcli/releases/tag/v1.13.0-rc3) |
+| **Terraform** | [`1.16.0-alpha20260715`](https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260715) |
+| **Terragrunt** | [`v1.1.1`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.1.1) |
 | **UpCloud CLI** | [`v3.34.0`](https://github.com/UpCloudLtd/upcloud-cli/releases/tag/v3.34.0) |
 
-> 🔄 Last updated: 2026-07-20T00:00:00+02:00 · [Build #1](https://github.com/stefanbosak/upcloud-tools/actions/runs/1)
+> 🔄 Last updated: 2026-07-21T17:04:45+02:00 · [Build #1](https://github.com/stefanbosak/upcloud-tools/actions/runs/29842420999)
 <!-- VERSION_INFO_END -->
 
 ---
