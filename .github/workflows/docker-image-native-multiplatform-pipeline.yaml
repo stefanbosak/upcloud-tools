@@ -207,7 +207,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if count=$(gh api "/user/packages/container/${{ env.REPOSITORY_NAME }}/versions" --jq 'length' 2>/dev/null); then
+          if count=$(gh api "/user/packages/container/${{ env.REPOSITORY_NAME }}-cache/versions" --jq 'length' 2>/dev/null); then
             echo "exists=true" >> "${GITHUB_OUTPUT}"
             echo "count=${count}" >> "${GITHUB_OUTPUT}"
           else
