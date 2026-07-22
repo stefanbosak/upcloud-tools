@@ -28,7 +28,7 @@
 | **Terragrunt** | [`v1.1.1`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.1.1) |
 | **UpCloud CLI** | [`v3.34.0`](https://github.com/UpCloudLtd/upcloud-cli/releases/tag/v3.34.0) |
 
-> 🔄 Last updated: 2026-07-21T22:48:53+02:00 · [Build #3](https://github.com/stefanbosak/upcloud-tools/actions/runs/29938963444)
+> 🔄 Last updated: 2026-07-22T18:42:32+02:00 · [Build #4](https://github.com/stefanbosak/upcloud-tools/actions/runs/29955605886)
 <!-- VERSION_INFO_END -->
 
 ---
