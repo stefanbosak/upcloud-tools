@@ -23,13 +23,13 @@
 | **Kops** | [`v1.37.0-beta.1`](https://github.com/kubernetes/kops/releases/tag/v1.37.0-beta.1) |
 | **Kubectl** | [`v1.37.0`](https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0) |
 | **Kustomize** | [`5.8.1`](https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize/v5.8.1) |
-| **OpenTofu** | [`1.13.0-beta1`](https://github.com/opentofu/opentofu/releases/tag/v1.13.0-beta1) |
+| **OpenTofu** | [`1.12.6`](https://github.com/opentofu/opentofu/releases/tag/v1.12.6) |
 | **SwarmCLI** | [`v2.0.1`](https://github.com/Eldara-Tech/swarmcli/releases/tag/v2.0.1) |
 | **Terraform** | [`1.17.0-beta1`](https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1) |
 | **Terragrunt** | [`v1.1.4`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.1.4) |
 | **UpCloud CLI** | [`v3.36.0`](https://github.com/UpCloudLtd/upcloud-cli/releases/tag/v3.36.0) |
 
-> 🔄 Last updated: 2026-09-10T18:27:03+02:00 · [Build #91](https://github.com/stefanbosak/upcloud-tools/actions/runs/34514144587)
+> 🔄 Last updated: 2026-09-10T20:28:22+02:00 · [Build #92](https://github.com/stefanbosak/upcloud-tools/actions/runs/34525710390)
 <!-- VERSION_INFO_END -->
 
 ---
