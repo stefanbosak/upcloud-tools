@@ -26,10 +26,10 @@
 | **OpenTofu** | [`1.13.0-beta1`](https://github.com/opentofu/opentofu/releases/tag/v1.13.0-beta1) |
 | **SwarmCLI** | [`v2.1.1`](https://github.com/Eldara-Tech/swarmcli/releases/tag/v2.1.1) |
 | **Terraform** | [`1.17.0-beta1`](https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1) |
-| **Terragrunt** | [`v1.1.4`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.1.4) |
+| **Terragrunt** | [`v1.1.5`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.1.5) |
 | **UpCloud CLI** | [`v3.36.0`](https://github.com/UpCloudLtd/upcloud-cli/releases/tag/v3.36.0) |
 
-> 🔄 Last updated: 2026-09-13T12:27:24+02:00 · [Build #101](https://github.com/stefanbosak/upcloud-tools/actions/runs/34814875143)
+> 🔄 Last updated: 2026-09-14T08:50:27+02:00 · [Build #102](https://github.com/stefanbosak/upcloud-tools/actions/runs/34903743624)
 <!-- VERSION_INFO_END -->
 
 ---
