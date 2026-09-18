@@ -23,7 +23,7 @@ on:
         description: 'CM_CTL_CLI_VERSION'
         required: false
         type: string
-        default: 'v2.5.0'
+        default: 'v2.6.1'
       HELM_CLI_VERSION:
         description: 'HELM_CLI_VERSION'
         required: false
@@ -68,7 +68,7 @@ on:
         description: 'OPENTOFU_CLI_VERSION'
         required: false
         type: string
-        default: '1.13.0-beta1'
+        default: '1.13.0-rc1'
       UPCLOUD_CLI_VERSION:
         description: 'UPCLOUD_CLI_VERSION'
         required: false
