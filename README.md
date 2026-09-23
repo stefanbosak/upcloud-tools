@@ -50,6 +50,7 @@ This repository provides a fully automated preparation of <span style="color: #0
 | [Docker CLI](https://docker.com) | <span style="color: #d73a49;">Container management CLI</span> |
 | [HELM CLI](https://helm.sh/docs/helm/) | <span style="color: #0969da;">Kubernetes package manager</span> |
 | [kops CLI](https://kops.sigs.k8s.io/) | <span style="color: #0969da;">Kubernetes cluster management</span> |
+| [kpt CLI](https://kpt.dev/) | <span style="color: #0969da;">Package-centric toolchain for Kubernetes configuration</span> |
 | [kubectl CLI](https://kubernetes.io/docs/reference/kubectl/) | <span style="color: #0969da;">Kubernetes command-line tool</span> |
 | [k9s CLI](https://k9scli.io/) | <span style="color: #0969da;">Terminal UI for Kubernetes</span> |
 | [OpenTofu CLI](https://opentofu.org/) | <span style="color: #1a7f37;">Open-source Infrastructure as Code tool (Terraform fork)</span> |

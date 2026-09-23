@@ -27,6 +27,9 @@ ARG K9S_CLI_VERSION=v0.51.0
 # kops version
 ARG KOPS_CLI_VERSION=v1.36.0-beta.1
 
+# kpt version
+ARG KPT_CLI_VERSION=v1.0.0
+
 # kubectl version
 ARG KUBECTL_CLI_VERSION=v1.36.2
 
@@ -204,6 +207,29 @@ ADD "https://github.com/kubernetes/kops/releases/download/${KOPS_CLI_VERSION}/ko
 
 # install kubectl
 RUN mkdir -p "/usr/local/bin/" && install -v -o root -g root -m 0755 "${WORKSPACE_ROOT_DIR}/kops-${TARGETOS}-${TARGETARCH}" "/usr/local/bin/kops"
+
+
+# container as builder for preparing UpCloud cloud tools
+FROM upcloud-tools-builder AS upcloud-tools-kpt-builder
+
+LABEL stage="upcloud-tools-kpt-builder" \
+      description="Alpine-based container builder for preparing UpCloud cloud tool kpt CLI" \
+      org.opencontainers.image.description="Alpine-based container builder for preparing UpCloud cloud tool kpt CLI" \
+      org.opencontainers.image.url=https://github.com/stefanbosak/upcloud-tools \
+      org.opencontainers.image.source=https://github.com/stefanbosak/upcloud-tools
+
+ARG TARGETOS
+ARG TARGETARCH
+ARG KPT_CLI_VERSION
+
+ARG WORKSPACE_ROOT_DIR
+WORKDIR "${WORKSPACE_ROOT_DIR}"
+
+# download kpt CLI binary file
+ADD "https://github.com/kptdev/kpt/releases/download/${KPT_CLI_VERSION}/kpt_${TARGETOS}_${TARGETARCH}" "${WORKSPACE_ROOT_DIR}/"
+
+# install kpt
+RUN mkdir -p "/usr/local/bin/" && install -v -o root -g root -m 0755 "${WORKSPACE_ROOT_DIR}/kpt_${TARGETOS}_${TARGETARCH}" "/usr/local/bin/kpt"
 
 
 # container as builder for preparing UpCloud cloud tools
@@ -410,6 +436,7 @@ COPY --from=upcloud-tools-cnpg-builder "/usr/local/bin/" "/usr/local/bin/"
 COPY --from=upcloud-tools-helm-builder "/usr/local/bin/" "/usr/local/bin/"
 COPY --from=upcloud-tools-k9s-builder "/usr/local/bin/" "/usr/local/bin/"
 COPY --from=upcloud-tools-kops-builder "/usr/local/bin/" "/usr/local/bin/"
+COPY --from=upcloud-tools-kpt-builder "/usr/local/bin/" "/usr/local/bin/"
 COPY --from=upcloud-tools-kubectl-builder "/usr/local/bin/" "/usr/local/bin/"
 COPY --from=upcloud-tools-kustomize-builder "/usr/local/bin/" "/usr/local/bin/"
 COPY --from=upcloud-tools-sofka-builder "/usr/local/bin/" "/usr/local/bin/"
@@ -518,6 +545,7 @@ RUN if getent group "${CONTAINER_GROUP_ID}" > /dev/null; then \
     helm completion bash > "/usr/share/bash-completion/completions/helm" && \
     k9s completion bash > "/usr/share/bash-completion/completions/k9s" && \
     kops completion bash > "/usr/share/bash-completion/completions/kops" && \
+    kpt completion bash > "/usr/share/bash-completion/completions/kpt" && \
     kubectl completion bash > "/usr/share/bash-completion/completions/kubectl" && \
     cp "/usr/share/bash-completion/completions/kubectl" "/usr/share/bash-completion/completions/k" && \
     sed -i 's/kubectl/k/g' "/usr/share/bash-completion/completions/k" && \
