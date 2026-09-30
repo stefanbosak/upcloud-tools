@@ -20,7 +20,7 @@
 | **cert-manager CLI** | [`v2.6.1`](https://github.com/cert-manager/cmctl/releases/tag/v2.6.1) |
 | **Helm** | [`v4.3.0`](https://github.com/helm/helm/releases/tag/v4.3.0) |
 | **K9s** | [`v0.51.0`](https://github.com/derailed/k9s/releases/tag/v0.51.0) |
-| **Kops** | [`v1.37.0-beta.1`](https://github.com/kubernetes/kops/releases/tag/v1.37.0-beta.1) |
+| **Kops** | [`v1.36.2`](https://github.com/kubernetes/kops/releases/tag/v1.36.2) |
 | **Kpt** | [`v1.0.2-pre.1`](https://github.com/kptdev/kpt/releases/tag/v1.0.2-pre.1) |
 | **Kubectl** | [`v1.38.0-alpha.1`](https://github.com/kubernetes/kubernetes/releases/tag/v1.38.0-alpha.1) |
 | **Kustomize** | [`5.8.2`](https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize/v5.8.2) |
@@ -31,7 +31,7 @@
 | **Terragrunt** | [`v1.2.0-rc1`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.2.0-rc1) |
 | **UpCloud CLI** | [`v3.36.0`](https://github.com/UpCloudLtd/upcloud-cli/releases/tag/v3.36.0) |
 
-> 🔄 Last updated: 2026-09-30T00:25:40+02:00 · [Build #136](https://github.com/stefanbosak/upcloud-tools/actions/runs/36729198030)
+> 🔄 Last updated: 2026-09-30T16:32:52+02:00 · [Build #137](https://github.com/stefanbosak/upcloud-tools/actions/runs/36744402729)
 <!-- VERSION_INFO_END -->
 
 ---
