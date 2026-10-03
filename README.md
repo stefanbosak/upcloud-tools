@@ -26,12 +26,12 @@
 | **Kustomize** | [`5.8.2`](https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize/v5.8.2) |
 | **OpenTofu** | [`1.13.1`](https://github.com/opentofu/opentofu/releases/tag/v1.13.1) |
 | **Sofka** | [`v0.29.8`](https://github.com/nklmilojevic/sofka/releases/tag/v0.29.8) |
-| **SwarmCLI** | [`v2.2.0-rc1`](https://github.com/Eldara-Tech/swarmcli/releases/tag/v2.2.0-rc1) |
+| **SwarmCLI** | [`v2.2.0-rc2`](https://github.com/Eldara-Tech/swarmcli/releases/tag/v2.2.0-rc2) |
 | **Terraform** | [`1.16.5`](https://github.com/hashicorp/terraform/releases/tag/v1.16.5) |
 | **Terragrunt** | [`v1.2.0-rc1`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.2.0-rc1) |
 | **UpCloud CLI** | [`v3.36.0`](https://github.com/UpCloudLtd/upcloud-cli/releases/tag/v3.36.0) |
 
-> 🔄 Last updated: 2026-10-02T12:28:44+02:00 · [Build #142](https://github.com/stefanbosak/upcloud-tools/actions/runs/37019814759)
+> 🔄 Last updated: 2026-10-02T16:29:15+02:00 · [Build #143](https://github.com/stefanbosak/upcloud-tools/actions/runs/37140621389)
 <!-- VERSION_INFO_END -->
 
 ---
