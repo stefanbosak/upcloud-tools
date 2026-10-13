@@ -81,7 +81,7 @@ on:
         description: 'UPCLOUD_CLI_VERSION'
         required: false
         type: string
-        default: 'v3.36.0'
+        default: 'v3.37.0'
       CONTAINER_TAG:
         description: 'CONTAINER_TAG'
         required: false
