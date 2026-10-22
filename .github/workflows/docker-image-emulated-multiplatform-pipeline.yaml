@@ -36,12 +36,12 @@ on:
         description: 'KOPS_CLI_VERSION'
         required: false
         type: string
-        default: 'v1.36.2'
+        default: 'v1.37.0-beta.1'
       KPT_CLI_VERSION:
         description: 'KPT_CLI_VERSION'
         required: false
         type: string
-        default: 'v1.0.1'
+        default: 'v1.0.2-pre.2'
       KUBECTL_CLI_VERSION:
         description: 'KUBECTL_CLI_VERSION'
         required: false

@@ -20,8 +20,8 @@
 | **cert-manager CLI** | [`v2.6.1`](https://github.com/cert-manager/cmctl/releases/tag/v2.6.1) |
 | **Helm** | [`v4.3.1`](https://github.com/helm/helm/releases/tag/v4.3.1) |
 | **K9s** | [`v0.51.0`](https://github.com/derailed/k9s/releases/tag/v0.51.0) |
-| **Kops** | [`v1.36.2`](https://github.com/kubernetes/kops/releases/tag/v1.36.2) |
-| **Kpt** | [`v1.0.1`](https://github.com/kptdev/kpt/releases/tag/v1.0.1) |
+| **Kops** | [`v1.37.0-beta.1`](https://github.com/kubernetes/kops/releases/tag/v1.37.0-beta.1) |
+| **Kpt** | [`v1.0.2-pre.2`](https://github.com/kptdev/kpt/releases/tag/v1.0.2-pre.2) |
 | **Kubectl** | [`v1.38.0-alpha.2`](https://github.com/kubernetes/kubernetes/releases/tag/v1.38.0-alpha.2) |
 | **Kustomize** | [`5.8.3`](https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize/v5.8.3) |
 | **OpenTofu** | [`1.13.2`](https://github.com/opentofu/opentofu/releases/tag/v1.13.2) |
@@ -31,7 +31,7 @@
 | **Terragrunt** | [`v1.2.0`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.2.0) |
 | **UpCloud CLI** | [`v3.37.0`](https://github.com/UpCloudLtd/upcloud-cli/releases/tag/v3.37.0) |
 
-> 🔄 Last updated: 2026-10-21T20:30:02+02:00 · [Build #178](https://github.com/stefanbosak/upcloud-tools/actions/runs/39814109603)
+> 🔄 Last updated: 2026-10-22T18:29:44+02:00 · [Build #179](https://github.com/stefanbosak/upcloud-tools/actions/runs/39831283337)
 <!-- VERSION_INFO_END -->
 
 ---
