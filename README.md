@@ -28,10 +28,10 @@
 | **Sofka** | [`v0.32.0`](https://github.com/nklmilojevic/sofka/releases/tag/v0.32.0) |
 | **SwarmCLI** | [`v2.2.0`](https://github.com/Eldara-Tech/swarmcli/releases/tag/v2.2.0) |
 | **Terraform** | [`1.17.0`](https://github.com/hashicorp/terraform/releases/tag/v1.17.0) |
-| **Terragrunt** | [`v1.2.0`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.2.0) |
+| **Terragrunt** | [`v1.2.1`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.2.1) |
 | **UpCloud CLI** | [`v3.37.0`](https://github.com/UpCloudLtd/upcloud-cli/releases/tag/v3.37.0) |
 
-> 🔄 Last updated: 2026-10-22T18:29:44+02:00 · [Build #179](https://github.com/stefanbosak/upcloud-tools/actions/runs/39831283337)
+> 🔄 Last updated: 2026-10-22T20:30:00+02:00 · [Build #180](https://github.com/stefanbosak/upcloud-tools/actions/runs/40018696391)
 <!-- VERSION_INFO_END -->
 
 ---
