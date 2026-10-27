@@ -16,7 +16,7 @@
 <!-- VERSION_INFO_START -->
 | Component | Version |
 |-----------|---------|
-| **Ansible** | [`v2.22.0rc1`](https://github.com/ansible/ansible/releases/tag/v2.22.0rc1) |
+| **Ansible** | [`v2.22.0rc2`](https://github.com/ansible/ansible/releases/tag/v2.22.0rc2) |
 | **cert-manager CLI** | [`v2.6.2`](https://github.com/cert-manager/cmctl/releases/tag/v2.6.2) |
 | **Helm** | [`v4.3.1`](https://github.com/helm/helm/releases/tag/v4.3.1) |
 | **K9s** | [`v0.51.0`](https://github.com/derailed/k9s/releases/tag/v0.51.0) |
@@ -31,7 +31,7 @@
 | **Terragrunt** | [`v1.2.1`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.2.1) |
 | **UpCloud CLI** | [`v3.37.0`](https://github.com/UpCloudLtd/upcloud-cli/releases/tag/v3.37.0) |
 
-> 🔄 Last updated: 2026-10-23T22:25:32+02:00 · [Build #181](https://github.com/stefanbosak/upcloud-tools/actions/runs/40530785471)
+> 🔄 Last updated: 2026-10-27T16:32:05+01:00 · [Build #182](https://github.com/stefanbosak/upcloud-tools/actions/runs/40567309573)
 <!-- VERSION_INFO_END -->
 
 ---
